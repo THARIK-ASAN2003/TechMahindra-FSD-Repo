@@ -12,7 +12,7 @@ public class FileExistenceChecker {
 
     public static void main(String[] args) {
         try {
-            readFile("non_existent_file.txt"); // Change this to a valid file path to test
+            readFile("MyDetails.txt"); 
         } catch (FileNotFoundException e) {
             System.out.println("Caught an exception: " + e.getMessage());
         }
