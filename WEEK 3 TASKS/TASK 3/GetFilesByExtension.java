@@ -3,7 +3,8 @@ import java.util.Arrays;
 
 public class GetFilesByExtension {
     public static void main(String[] args) {
-        String directoryPath = "C:/example";
+        String directoryPath = "C:/VS Code Programs/Java Programs /techmahindra/
+Week 3 Assignments /Task 3";
         String extension = ".txt";
         File directory = new File(directoryPath);
         String[] files = directory.list((dir, name) -> name.toLowerCase().endsWith(extension.toLowerCase()));
