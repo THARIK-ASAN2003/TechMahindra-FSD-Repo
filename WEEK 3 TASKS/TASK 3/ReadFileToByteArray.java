@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 
 public class ReadFileToByteArray {
     public static void main(String[] args) {
-        String pathname = "C:/example/test.txt";
+        String pathname = "C:/VS Code Programs/Java Programs /techmahindra/Week 3 Assignments /Task 3/MyDetails.txt";
         try {
             Path path = Paths.get(pathname);
             byte[] bytes = Files.readAllBytes(path);
