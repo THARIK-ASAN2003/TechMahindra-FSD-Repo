@@ -12,7 +12,7 @@ public class FileEmptyChecker {
 
     public static void main(String[] args) {
         try {
-            checkIfFileIsEmpty("empty_file.txt"); // Change this to a valid file path to test
+            checkIfFileIsEmpty("Mydetails.txt");
         } catch (IOException e) {
             System.out.println("Caught an exception: " + e.getMessage());
         }
