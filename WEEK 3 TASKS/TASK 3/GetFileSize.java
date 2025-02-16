@@ -1,5 +1,4 @@
 import java.io.File;
-
 public class GetFileSize {
     public static void main(String[] args) {
         String pathname = "C:/VS Code Programs/Java Programs /techmahindra/
