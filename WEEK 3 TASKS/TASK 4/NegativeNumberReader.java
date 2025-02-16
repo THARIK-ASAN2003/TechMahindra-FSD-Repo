@@ -17,7 +17,7 @@ public class NegativeNumberReader {
 
     public static void main(String[] args) {
         try {
-            readNumbersFromFile("numbers.txt"); // Change this to a valid file path to test
+            readNumbersFromFile("Numbers.txt"); 
         } catch (IOException | IllegalArgumentException e) {
             System.out.println("Caught an exception: " + e.getMessage());
         }
