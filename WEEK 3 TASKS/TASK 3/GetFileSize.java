@@ -2,7 +2,8 @@ import java.io.File;
 
 public class GetFileSize {
     public static void main(String[] args) {
-        String pathname = "C:/example/test.txt";
+        String pathname = "C:/VS Code Programs/Java Programs /techmahindra/
+Week 3 Assignments /Task 3/MyDetails.txt";
         File file = new File(pathname);
         long bytes = file.length();
         double kb = bytes / 1024.0;
