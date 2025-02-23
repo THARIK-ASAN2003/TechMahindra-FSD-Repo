@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Magazine</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>E-Magazine</h1>
+    <nav>
+      <div class="menu-icon">&#9776;</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Categories</a>
+          <ul class="dropdown">
+            <li><a href="#technology">Technology</a></li>
+            <li><a href="#sports">Sports</a></li>
+            <li><a href="#politics">Politics</a></li>
+            <li><a href="#entertainment">Entertainment</a></li>
+          </ul>
+        </li>
+        <li><a href="multimedia.html">Multimedia</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Featured News Slider -->
+  <section id="hero">
+    <div class="slider">
+      <div class="slide active" style="background-image: url('Images/slide1.jpg');">
+        <h2>Breaking News: AI Revolutionizes Industries</h2>
+      </div>
+      <div class="slide" style="background-image: url('Images/slide2.jpg');">
+        <h2>World Cup Finals: Epic Showdown</h2>
+      </div>
+      <div class="slide" style="background-image: url('Images/slide3.jpg');">
+        <h2>New Discoveries in Space Exploration</h2>
+      </div>
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </section>
+
+  <!-- Category Tabs -->
+  <section id="category-tabs">
+    <button class="tab active-tab" data-category="all">All</button>
+    <button class="tab" data-category="technology">Technology</button>
+    <button class="tab" data-category="sports">Sports</button>
+    <button class="tab" data-category="politics">Politics</button>
+    <button class="tab" data-category="entertainment">Entertainment</button>
+  </section>
+
+  <!-- Search Bar -->
+  <section id="search-bar">
+    <input type="text" id="search-input" placeholder="Search articles...">
+  </section>
+
+  <!-- Latest Articles Section -->
+  <section id="latest-news">
+    <h3>Latest Articles</h3>
+    <div id="articles-container"></div>
+  </section>
+
+  <!-- Article Detail Modal -->
+  <div id="article-modal" class="modal" data-article-id="">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <img id="modal-image" alt="Article Image">
+      <p id="modal-content"></p>
+      <video id="modal-video" controls width="100%">
+        <source src="" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <audio id="modal-audio" controls>
+        <source src="" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      <div class="gallery" id="modal-gallery"></div>
+      <div class="social-sharing">
+        <a href="#" id="share-twitter" target="_blank">
+          <i class="fab fa-twitter"></i>Twitter
+        </a>
+        <a href="#" id="share-facebook" target="_blank">
+          <i class="fab fa-facebook"></i>Facebook
+        </a>
+        <a href="#" id="share-linkedin" target="_blank">
+          <i class="fab fa-linkedin"></i>LinkedIn
+        </a>
+        <a href="#" id="share-pinterest" target="_blank">
+          <i class="fab fa-pinterest"></i>Pinterest
+        </a>
+      </div>
+      <div class="comment-section">
+        <h4>Leave a Comment</h4>
+        <form id="comment-form">
+          <textarea id="comment-text" placeholder="Write your comment here..." required></textarea>
+          <input type="text" id="comment-author" placeholder="Your Name (optional)">
+          <button type="submit">Submit Comment</button>
+        </form>
+        <div class="comments-list" id="comments-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 E-Magazine</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
