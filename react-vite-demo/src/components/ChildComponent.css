@@ -1,0 +1,97 @@
+.user-card {
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 2rem auto;
+    transition: all 0.3s ease;
+    background: white;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-header-bg {
+    height: 140px;
+    background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+  }
+  
+  .user-avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: -70px auto 1.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-name {
+    font-size: 1.75rem;
+    color: #1e293b;
+  }
+  
+  .user-handle {
+    font-size: 1.1rem;
+    color: #64748b;
+  }
+  
+  .user-bio {
+    color: #64748b;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    margin: 1.5rem 0;
+  }
+  
+  .stats-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+  }
+  
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: #f8fafc;
+    border-radius: 0.75rem;
+  }
+  
+  .stat-icon {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-icon.followers { color: #6366f1; }
+  .stat-icon.following { color: #8b5cf6; }
+  .stat-icon.repos { color: #10b981; }
+  
+  .stat-value {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #1e293b;
+  }
+  
+  .stat-label {
+    color: #64748b;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .profile-link {
+    border-radius: 50px;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .profile-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
+  }
