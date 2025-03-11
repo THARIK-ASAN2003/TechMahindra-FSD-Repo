@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "title": "AI Takes Over the World",
+      "category": "technology",
+      "content": "Artificial Intelligence is revolutionizing industries by automating tasks and improving efficiency...",
+      "image": "Images/ai.jpg",
+      "video": "Multimedia/ai-video.mp4"
+    },
+    {
+      "id": 2,
+      "title": "World Cup Finals",
+      "category": "sports",
+      "content": "The final match was an epic showdown between two of the best teams in the world...",
+      "image": "Images/world-cup.jpg",
+      "video": "Multimedia/world-cup-video.mp4"
+    },
+    {
+      "id": 3,
+      "title": "Global Summit on Climate Change",
+      "category": "politics",
+      "content": "Leaders from around the world gather to discuss solutions to combat climate change...",
+      "image": "Images/climate.jpg",
+      "video": "Multimedia/climate-video.mp4"
+    },
+    {
+      "id": 4,
+      "title": "New Movie Releases",
+      "category": "entertainment",
+      "content": "Check out the latest blockbusters hitting theaters this season...",
+      "image": "Images/movies.jpg",
+      "video": "Multimedia/movie-trailer.mp4"
+    }
+  ]
